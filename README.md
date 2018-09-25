@@ -31,10 +31,12 @@ Question three: choice 1,2 or 3  |         A                 |      5marks or 0 
 Question four: choice 1,2 or 3   |         B                 |      5marks or 0    |
 Question five: choice 1,2 or 3   |         A                 |      5marks or 0    |
 Question six: choice  1,2 or 3   |         C                 |      5marks or 0    |
-                                 |                           |                     |
+
 #### Support and contact details
-*  Email Address :ivonnahbonswuh@gmail.com
+*  Email Address :ivonnahbonswuh@gmail.com                             
 
 #### License
 MIT License
 #### Copyright (c) 2018
+
+
