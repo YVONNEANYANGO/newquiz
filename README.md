@@ -20,7 +20,7 @@ Yvonne Anyango
 *  jQuery
 
 #### Set-up/Installation Requirements
-*  Type in this url ("")  
+*  Type in this url ("https://yvonneanyango.github.io/newquiz/")  
 
 #### Behavior Driven Development (BDD)
 Possible Answers               |   Correct answers                       |   Expected Results  |
