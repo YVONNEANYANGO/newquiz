@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+          <link href="css/styles.css" rel="stylesheet" type="text/css">
+          <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+          <script src="js/scripts.js"></script>
+    <title>QUIZ BOARD JAVASCRIPT</title>
+  </head>
+    <body>
+      <div class="container">
+     <div class="card">
+
+
+            <div class="panel panel-default">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2QlUmqnnnhEXd15cuSYi6do163iHDA78zXIbtoIWrcXZmqMb9IA"
+                alt="Picture of Students Graduating"
+                height="350" width="1135">
+            </div>
+      </div>
+
+       <div class="jumbotron">
+        <div class="panel-heading">
+          <h1><strong>Quiz-Board javaScript</strong></h1>
+        </div>
+        <h2 class="panel-title"><strong>Read the Instructions Below</strong></h2>
+        <p>Fill in the questions with correct answers.Read through each questions
+          carefully before giving out any anwers.<em><strong>All questions are compulsary</strong></em></p>
+       </div>
+
+    <form>
+      <div class="well">
+
+              <ol>
+                <li>What is the importance of including <strong>"Use Strict"</strong> at the beginning
+                    of a javaScript source file?
+                </li>
+
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="answer1" value="Makes debugging easier">
+                               Makes debugging easier
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="answer1" value="Separates the business logic from user interface">
+                               Separates the business logic from user interface
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="answer1" value="Used for finding lengths in arrays">
+                               Used fo finding lengths in arrays
+                    </label>
+                  </div>
+                       <br>
+                       <br>
+
+                    <li>The following are examples of Data Types except?</li>
+
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer2" value="Number">
+                            Number
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer2" value="string">
+                             String
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer2" value="Character">
+                            Character
+                      </label>
+                    </div>
+                        <br>
+                        <br>
+                    <li>What is a prompt box as used in javaScript?</li>
+
+                      <div class="radio">
+                        <label>
+                         <input type="radio" name="answer3" value="A box that allows users to enter their inputs by providing a text box">
+                         A box that allows users to enter their inputs by providing a text box
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="answer3" value="A box model used for styling a html file">
+                          A box model used for styling a html file
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="answer3" value="A model used in place of class container in index.html file">
+                          A model used in place of class container in index.html file
+                        </label>
+                      </div>
+                      <br>
+                      <br>
+                      <li>The other name for front-end logic is?</li>
+
+                       <div class="radio">
+                        <label>
+                          <input type="radio" name="answer4" value="back-end logic">
+                               back-end logic
+                        </label>
+                       </div>
+                       <div class="radio">
+                         <label>
+                           <input type="radio" name="answer4" value="user interface">
+                                user interface
+                         </label>
+                       </div>
+                       <div class="radio">
+                         <label>
+                           <input type="radio" name="answer4" value="business logic">
+                                business logic
+                         </label>
+                       </div>
+                         <br>
+                         <br>
+                        <li>What is the use of NaN function in javaScript</li>
+
+                         <div class="radio">
+                           <label>
+                             <input type="radio" name="answer5" value="Returns true if the argument is not a number otherwise it is false">
+                             Returns true if the argument is not a number otherwise it is false
+                           </label>
+                         </div>
+                         <div class="radio">
+                           <label>
+                             <input type="radio" name="answer5" value="Returns false if the argument is
+                             not a number otherwise it is true">
+                              Returns false if the argument is not a number otherwise it is true
+                           </label>
+                         </div>
+                         <div class="radio">
+                           <label>
+                             <input type="radio" name="answer5" value="None of the above">
+                                None of the above
+                           </label>
+                         </div>
+                         <br>
+                         <br>
+                         <li>Which symbol is used for comments in Javascript?</li>
+                         <div class="radio">
+
+                           <label>
+                             <input type="radio" name="answer6" value="++">
+                                   ++
+                           </label>
+                         </div>
+                         <div class="radio">
+                           <label>
+                             <input type="radio" name="answer6" value="||">
+                                   ||
+                           </label>
+                         </div>
+                         <div class="radio">
+                           <label>
+                             <input type="radio" name="answer6" value="//">
+                                  //
+                           </label>
+                         </div>
+                         <br>
+         </div>
+                         <br>
+                        <div class="panel-footer">
+
+                         <p><em><strong>Wishing You All The Very Best!!!!!!</strong></em></p>
+                        </div>
+                        <div id="Results">
+                          <button id="btn" type="submit" onclick="answer(event);"><strong>Submision</strong></button>
+                        </div>
+        </form>
+
+       </div>
+      </ol>
+
+   </div>
+  </body>
+</html>
